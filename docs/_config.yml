@@ -29,6 +29,8 @@ url: "https://guidebook.hustunique.com"
 github_username: UniqueStudio
 repository: UniqueStudio/guidebook
 
+favicon: "/assets/favicon.ico"
+
 social_links:
   github: UniqueStudio
 
