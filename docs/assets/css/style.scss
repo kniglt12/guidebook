@@ -11,6 +11,11 @@ body {
 .page-header {
   background-color: #0066cc;
   background-image: linear-gradient(120deg, #0066cc, #004080);
+  padding: 2rem !important; // 减小内边距
+}
+.page-header .project-name {
+  font-size: 2rem !important; // 缩小标题字号
+  margin: 0;
 }
 
 .main-content {
@@ -47,5 +52,272 @@ body {
         }
       }
     }
+  }
+}
+
+// 各组入门指南
+.group-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.group-box {
+  background: #fff;
+  border: 2px solid #ddd; // 边框加粗
+  padding: 1rem;
+  flex: 1 1 calc(33.33% - 1rem);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 8px;
+}
+
+.group-box:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  border-color: #3d89d6;
+  text-decoration: none; // 去除下划线
+}
+
+// 招新流程
+.recruitment-timeline {
+  margin: 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.timeline-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  flex: 1;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.timeline-step:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  right: -50%;
+  width: 100%;
+  height: 2px;
+  background-color: #ddd;
+  z-index: 0;
+}
+
+.step-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #0066cc;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.step-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-content h4 {
+  margin: 0 0 5px 0;
+  color: rgb(0, 102, 204);
+  font-size: 1rem;
+}
+
+// Tooltip 样式
+.tooltip {
+  position: relative;
+  display: inline-block;
+  margin-top: 5px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #666;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: help;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 180px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.tooltip .tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.8) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+// 招新相关信息卡片
+.recruit-info-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.recruit-info-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  flex: 1 1 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.recruit-info-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.info-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #e6f0ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  color: #0066cc;
+  font-size: 1.5rem;
+}
+
+.info-content h4 {
+  color: #0066cc;
+  margin: 0 0 0.5rem 0;
+}
+
+.info-content p {
+  color: #666;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.info-btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+.info-btn:hover {
+  background-color: #e0e0e0;
+  text-decoration: none;
+}
+
+.info-btn.primary-btn {
+  background-color: #0066cc;
+  color: white;
+}
+
+.info-btn.primary-btn:hover {
+  background-color: #0055aa;
+}
+
+@media (max-width: 768px) {
+  .recruitment-timeline {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  
+  .timeline-step {
+    margin-bottom: 25px;
+    flex-direction: row;
+    text-align: left;
+    align-items: flex-start;
+  }
+  
+  .timeline-step:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 30px;
+    height: calc(100% + 10px);
+    width: 2px;
+    background-color: #ddd;
+  }
+  
+  .step-circle {
+    margin-right: 15px;
+    margin-bottom: 0;
+  }
+  
+  .step-content {
+    width: auto;
+    align-items: flex-start;
+  }
+  
+  .tooltip .tooltip-text {
+    width: 150px;
+    left: -50px;
+    transform: none;
+  }
+  
+  .recruit-info-card {
+    flex: 1 1 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .recruitment-timeline {
+    max-width: 700px;
+    margin: 40px auto;
   }
 }

@@ -1,25 +1,43 @@
 title: 联创团队招新新人指北
-description: 华中科技大学联创团队新人入门指北
+description: "「联众人之志，创非凡之事」"
 theme: jekyll-theme-cayman
 sass:
   sass_dir: _sass
   style: compressed
   
-# 网站导航配置
+# 网站导航配置 - 更新为与实际页面匹配的导航项
 navigation:
   - title: 首页
     url: /
-  - title: 入门指南
-    url: /docs/getting-started
-  - title: 开发指南
-    url: /docs/development
-  - title: 学习资源
-    url: /docs/resources
+  - title: Web入门
+    url: /docs/Web入门指北
+  - title: AI入门
+    url: /docs/AI入门指北
+  - title: Mobile入门
+    url: /docs/Mobile入门指北
+  - title: Design入门
+    url: /docs/Design入门指北
+  - title: Game入门
+    url: /docs/Game入门指北
+  - title: Lab入门
+    url: /docs/Lab入门指北
+  - title: PM入门
+    url: /docs/PM入门指北
 
-# 网站基本信息
 baseurl: ""
 url: "https://guidebook.hustunique.com"
 github_username: UniqueStudio
+repository: UniqueStudio/guidebook
+
+social_links:
+  github: UniqueStudio
+
+# SEO 优化
+lang: zh-CN
+google_analytics: # 如需添加分析代码，在此处填写
+author:
+  name: 华中科技大学联创团队
+  url: https://www.hustunique.com
 
 # 分页设置
 paginate: 10
@@ -31,3 +49,14 @@ defaults:
       path: ""
     values:
       layout: "default"
+  - scope:
+      path: "docs"
+    values:
+      layout: "default"
+
+# 插件设置
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-github-metadata

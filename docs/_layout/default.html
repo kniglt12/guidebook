@@ -6,28 +6,41 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <!-- 添加Font Awesome图标 -->
+    <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    {% seo %}
   </head>
   <body>
-    <header class="page-header">
-      <h1 class="project-name">{{ site.title }}</h1>
-      <h2 class="project-tagline">{{ site.description }}</h2>
-      
-      <nav class="site-nav">
-        <ul>
-          {% for item in site.navigation %}
-            <li><a href="{{ item.url }}">{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
+      {% endif %}
+      {% if site.show_downloads %}
+        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
+        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
+      {% endif %}
     </header>
 
-    <main class="main-content">
+    <main id="content" class="main-content" role="main">
+      <nav class="site-nav">
+        <ul>
+          <li><a href="/">首页</a></li>
+          <li><a href="#about">关于联创</a></li>
+          <li><a href="#guides">入门指南</a></li>
+          <li><a href="#recruit">招新信息</a></li>
+        </ul>
+      </nav>
+      
       {{ content }}
-    </main>
 
-    <footer class="site-footer">
-      <p>© {{ site.time | date: '%Y' }} 华中科技大学联创团队 - <a href="https://hustunique.com">联创团队官网</a></p>
-    </footer>
+      <footer class="site-footer">
+        {% if site.github.is_project_page %}
+          <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
+        {% endif %}
+        <span class="site-footer-credits">© 2025 华中科技大学联创团队 保留所有权利</span>
+      </footer>
+    </main>
   </body>
 </html>
