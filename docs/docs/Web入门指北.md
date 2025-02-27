@@ -11,17 +11,17 @@ Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron
 
 联创团队的 Web 组的培养计划包括基础的前端和后端，而深入的学习需要选择其中一个方向。   
 
-这可能是 2025 年入门 Web 的最佳学习路线：[Developer Roadmaps](https%3A%2F%2Froadmap.sh%2F)，如果你对这一大堆专业名词感到畏惧， 可以先看下面的：   
+这可能是 2025 年入门 Web 的最佳学习路线：[Developer Roadmaps](https://roadmap.sh/)，如果你对这一大堆专业名词感到畏惧， 可以先看下面的：   
 
 ### 计算机入门
 
 如果你是大一新生，可以看看以下这些东西来了解纷繁复杂但是又非常有趣的计算机世界。  
 
-1. [计算机科学速成课](https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav21376839%2F%3Fvd_source%3D610d5016ada513f5a725f4e7b2c16173) 非常有意思也非常高质量的视频课程，用非常通俗易懂的语言讲解了几乎所有本科阶段会接触的计算机知识。  
+1. [计算机科学速成课](https://www.bilibili.com/video/av21376839/?vd_source=610d5016ada513f5a725f4e7b2c16173) 非常有意思也非常高质量的视频课程，用非常通俗易懂的语言讲解了几乎所有本科阶段会接触的计算机知识。  
 
-2. [CS50](https%3A%2F%2Fwww.bilibili.com%2Fvideo%2FBV1ER4y157uA%2F%3Fvd_source%3D610d5016ada513f5a725f4e7b2c16173) 哈佛大学的计算机入门课。  
+2. [CS50](https://www.bilibili.com/video/BV1ER4y157uA/?vd_source=610d5016ada513f5a725f4e7b2c16173) 哈佛大学的计算机入门课。  
 
-3. [CS自学指南](https%3A%2F%2Fcsdiy.wiki%2F) 国内外高质量 CS 课程和书籍汇总，学完就可以毕业了。  
+3. [CS自学指南](https://csdiy.wiki/) 国内外高质量 CS 课程和书籍汇总，学完就可以毕业了。  
 
 ~~如果新手上路认为以下方式比较困难，可以暂时靠视频教程入门~~，但**视频是一种相对低效的学习方式，不要过度依赖它，应该努力培养阅读文档和书籍的能力**。另外**计算机领域大部分高质量的教程和文档都是英文的**，所以也建议逐渐熟悉~~翻译软件~~英文环境，还有学习使用google。  
 
@@ -36,19 +36,19 @@ Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron
 我们推荐的书籍或资源是：   
 
 1. Web 入门：  
-	- [Web Development for Beginners](https%3A%2F%2Fyishulun.com%2FWeb-Dev-For-Beginners-CN%2F) 通过游戏从零入门Web  
-	- [w3school](https%3A%2F%2Fwww.w3schools.com%2F) 和 [中文版](https%3A%2F%2Fwww.w3school.com.cn%2F)   
-	- [MDN Web Docs](https%3A%2F%2Fdeveloper.mozilla.org%2F) Web知识大全，也有很多教程  
+	- [Web Development for Beginners](https://yishulun.com/Web-Dev-For-Beginners-CN/) 通过游戏从零入门Web  
+	- [w3school](https://www.w3schools.com/) 和 [中文版](https://www.w3school.com.cn/)  
+	- [MDN Web Docs](https://developer.mozilla.org/zh-CN/) Web知识大全，也有很多教程  
 
 2. HTML 是网页的“骨架”，用来定义网页的内容结构。比如，它告诉浏览器哪里是标题、哪里是段落、哪里是图片等。它是简单易读的标记语言，非常容易学习。   
 
 3. CSS是网页的“皮肤”，用来设计网页的外观和样式。它可以设置文字的颜色、背景、按钮的形状等，让网页看起来更美观。推荐教程：  
-	- [入门级的 CSS 教程](https%3A%2F%2Fgithub.com%2FWTFAcademy%2FWTF-CSS%3Ftab%3Dreadme-ov-file)，非常适合新手学习。   
+	- [入门级的 CSS 教程](https://github.com/WTFAcademy/WTF-CSS?tab=readme-ov-file)，非常适合新手学习。   
 	- 进阶：《CSS 权威指南》（鱼书，封面是两条鱼），看懂这本书，你就是大佬！  
 
 4. JavaScript(简称 JS)，它是网页的“大脑”，用来实现网页的交互功能。比如，点击按钮弹出对话框、鼠标悬停时显示提示信息等。  
 	- JS作为真正的编程语言，比上面两个来说有一定难度，如果没有学过编程的话建议看b站。  
-	- [现代 JavaScript 教程](https%3A%2F%2Fzh.javascript.info%2F)，非常好的入门教学网站，帮助学习JS。  
+	- [现代 JavaScript 教程](https://zh.javascript.info/)，非常好的入门教学网站，帮助学习JS。  
 	- 进阶：《JavaScript 高级程序设计(第 4 版)》，看完这本书，你就能领先很多人！   
 
 如果想在面试的时候给我们留下深刻的印象，深入学习一下 CSS 和 JS 将会是非常聪明的选择。在它们的帮助下，你可以编写精美、整洁、功能丰富的网页。  
@@ -71,25 +71,25 @@ Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron
 
 后端负责处理数据、逻辑和业务规则，比如存储用户信息、处理订单、计算数据等，为前端提供了大量幕后支持，如何做到多人联机？如何分享信息？如何维护大量数据？如何顶住巨大多请求的狂暴轰入？如何把计算交给云端？这些正是后端做的事！  
 
-后端入门也非常简单，但是系统地学习后端需要一些网络的基础，你首先需要知道后端是如何跟前端或者直接跟用户打交道的（先了解[HTTP协议是什么](https%3A%2F%2Fliaoxuefeng.com%2Fbooks%2Fpython%2Fweb%2Fhttp-basic%2Findex.html)），之后我们就可以挑一门你喜欢的/常见的后端语言来学习！  
+后端入门也非常简单，但是系统地学习后端需要一些网络的基础，你首先需要知道后端是如何跟前端或者直接跟用户打交道的（先了解[HTTP协议是什么](https://liaoxuefeng.com/books/python/web/http-basic/index.html)），之后我们就可以挑一门你喜欢的/常见的后端语言来学习！  
 
 1. Python: 一门老牌后端语言，虽然近些年没有在Web领域太活跃，但是凭借其易上手的特点成为了许多年轻人的第一门编程语言。  
 
-   + 推荐教程：如果你是编程新手，推荐[Python - 100天从新手到大师](https%3A%2F%2Fgitee.com%2Fyuriluo%2FPython-100-Days)**。**此外，推荐廖雪峰的[Python教程](https%3A%2F%2Fwww.liaoxuefeng.com%2Fwiki%2F1016959663602400%230)，同时与Web后端开发相关的可以学习flask框架，如果初次接触，[FastApi](https%3A%2F%2Ffastapi.tiangolo.com%2F) 也是一个不错的框架选择。  
+   + 推荐教程：如果你是编程新手，推荐[Python - 100天从新手到大师](https://gitee.com/yuriluo/Python-100-Days)。此外，推荐廖雪峰的[Python教程](https://liaoxuefeng.com/books/python/introduction/index.html#0)，同时与Web后端开发相关的可以学习flask框架，如果初次接触，[FastApi](https://fastapi.tiangolo.com/) 也是一个不错的框架选择。  
 
 2. Node.js: 是“运行在服务端的 JavaScript”，语法同前端的JavaScript相同，Node.js提供了让JS能够在服务端跑起来的环境而将这门语言的舞台扩展到了服务端而不仅仅是浏览器。上手难度也很低，推荐学习！  
 
 	+ 使用Node.js不需要安装其他什么框架也能几行写出一个服务器demo（推荐试试）！不过依然可以使用成熟的Web框架来提高效率，这里推荐koa框架  
 
-	+ 推荐教程：《JavaScript 高级程序设计（第 4 版）》（重点是基本语法，与浏览器相关的可以跳过），[Node.js 简介](https%3A%2F%2Fnodejs.cn%2Fen%2Flearn)也有很多入门的教程！  
+	+ 推荐教程：《JavaScript 高级程序设计（第 4 版）》（重点是基本语法，与浏览器相关的可以跳过），[Node.js 简介](https://nodejs.cn/en/learn)也有很多入门的教程！  
 
 3. Golang: 俗称Go语言，是Google在2009年推出的新语言，语法接近C，具有语法简单，并发支持好的特点，非常适合Web开发，也是**当前团队基础设施后端的主要语言**。  
 
-	+ 推荐教程：[Go 语言之旅](https%3A%2F%2Ftour.go-zh.org%2Fwelcome%2F1)，这个官方教程非常友好且详细。或者[Go语言圣经](https%3A%2F%2Fgolang-china.github.io%2Fgopl-zh%2Findex.html)。  
+	+ 推荐教程：[Go 语言之旅](https://tour.go-zh.org/welcome/1)，这个官方教程非常友好且详细。或者[Go语言圣经](https://golang-china.github.io/gopl-zh/index.html)。  
 
 4. R：有其独特的类函数式编程特点，不适配Web开发，而更多在数据分析和生物医学领域使用  
 
-	+ 推荐教程：[RBook](https%3A%2F%2Fwww.math.pku.edu.cn%2Fteachers%2Flidf%2Fdocs%2FRbook%2Fhtml%2F_Rbook%2Findex.html)  
+	+ 推荐教程：[RBook](https://www.math.pku.edu.cn/teachers/lidf/docs/Rbook/html/_Rbook/index.html)  
 
 尽管上面提到的是推荐后端入门的语言，但是依然有一个不成文的共识：**你应当会写一点C语言/C++**。  
 
@@ -97,7 +97,7 @@ Web 有你想要的一切，如今我们的舞台拓展到桌面应用 (Electron
 
 到这里你应该就学会如何编写一个我在浏览器上输入网址后就能看到Hello World的网站了！  
 
-如果你想要编写能解决实际问题的网站，数据库(SQL则是必学的)，对于SQL语言的入门这里推荐[SQL Murder Mystery](https%3A%2F%2Fmystery.knightlab.com%2Fwalkthrough.html)，尽管是英文，但我希望想学习SQL的你能够克服这个困难！这个教程带着你去破解一个有趣的谋杀案。在学会写一点SQL后就可以了解各语言如何跟真正的数据库打交道了。Mysql或者PostgresQL是我们常用的选择，与各语言的交互应该在搜索引擎上搜索一下就能发现很多教程。   
+如果你想要编写能解决实际问题的网站，数据库(SQL则是必学的)，对于SQL语言的入门这里推荐[SQL Murder Mystery](https://mystery.knightlab.com/walkthrough.html)，尽管是英文，但我希望想学习SQL的你能够克服这个困难！这个教程带着你去破解一个有趣的谋杀案。在学会写一点SQL后就可以了解各语言如何跟真正的数据库打交道了。Mysql或者PostgresQL是我们常用的选择，与各语言的交互应该在搜索引擎上搜索一下就能发现很多教程。   
 
 我想你应该尝试去做个有趣的后端小项目，这或许会对面试有所帮助。  
 
