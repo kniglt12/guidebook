@@ -16,7 +16,21 @@ body {
 .page-header .project-name {
   font-size: 2rem !important; // 缩小标题字号
   margin: 0;
+  position: relative;
 }
+
+.project-name::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: 5%;
+  background-image: url('https://join2024.hustunique.com/assets/logo-c14357ca.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 103px;
+  height: 93px;
+}
+
 
 .main-content {
   h1, h2, h3, h4, h5, h6 {
