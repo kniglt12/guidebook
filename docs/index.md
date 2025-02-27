@@ -14,7 +14,7 @@ title: 首页
 ## 快速导航
 
 - [入门指南](/docs/getting-started) - 新成员第一步
-- [开发指南](/docs/development) - 技术栈与开发规范
+- [开发指南](/docs/docs/dev.md) - 技术栈与开发规范
 - [学习资源](/docs/resources) - 推荐学习资料与教程
 
 ## 招新流程
