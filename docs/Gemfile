@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+
+# 使用与 GitHub Pages 相同的依赖
+gem "github-pages", group: :jekyll_plugins
+
+# 性能监控插件
+gem "webrick", "~> 1.7"
