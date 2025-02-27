@@ -1,5 +1,33 @@
 title: 联创团队招新新人指北
-theme: jekyll-theme-cayman 
+description: 华中科技大学联创团队新人入门指北
+theme: jekyll-theme-cayman
 sass:
-  sass_dir: _sass  # 创建空目录占位
+  sass_dir: _sass
   style: compressed
+  
+# 网站导航配置
+navigation:
+  - title: 首页
+    url: /
+  - title: 入门指南
+    url: /docs/getting-started
+  - title: 开发指南
+    url: /docs/development
+  - title: 学习资源
+    url: /docs/resources
+
+# 网站基本信息
+baseurl: ""
+url: "https://guidebook.hustunique.com"
+github_username: UniqueStudio
+
+# 分页设置
+paginate: 10
+paginate_path: "/page:num/"
+
+# 默认布局设置
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
