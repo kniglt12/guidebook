@@ -92,7 +92,7 @@ description: "「联众人之志，创非凡之事」"
 <div class="recruit-info-container">
   <div class="recruit-info-card">
     <div class="info-icon">
-      <img src="/assets/css/fonts/message-circle-more.svg">
+      <img src="/assets/fonts/message-circle-more.svg">
     </div>
     <div class="info-content">
       <h4>招新QQ群</h4>
@@ -103,7 +103,7 @@ description: "「联众人之志，创非凡之事」"
   
   <div class="recruit-info-card">
     <div class="info-icon">
-      <img src="/assets/css/fonts/newspaper.svg">
+      <img src="/assets/fonts/newspaper.svg">
     </div>
     <div class="info-content">
       <h4>招新推文</h4>
@@ -114,7 +114,7 @@ description: "「联众人之志，创非凡之事」"
   
   <div class="recruit-info-card">
     <div class="info-icon">
-      <img src="/assets/css/fonts/log-in.svg">
+      <img src="/assets/fonts/log-in.svg">
     </div>
     <div class="info-content">
       <h4>在线报名</h4>
