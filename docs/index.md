@@ -87,7 +87,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="step-content">
       <h4>报名</h4>
       <div class="tooltip">?
-        <span class="tooltip-text">填写在线报名表，提交个人基本信息</span>
+        <span class="tooltip-text">在join端完成个人信息填写和报名</span>
       </div>
     </div>
   </div>
@@ -96,7 +96,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="step-content">
       <h4>笔试</h4>
       <div class="tooltip">?
-        <span class="tooltip-text">参加相关技术方向的基础笔试或问卷</span>
+        <span class="tooltip-text">完成报名组别的笔试或问卷</span>
       </div>
     </div>
   </div>
@@ -123,7 +123,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="step-content">
       <h4>群面</h4>
       <div class="tooltip">?
-        <span class="tooltip-text">最后的团队面试环节</span>
+        <span class="tooltip-text">最后的团队面试环节，主要考察候选人和团队是否match</span>
       </div>
     </div>
   </div>
