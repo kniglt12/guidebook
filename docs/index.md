@@ -94,7 +94,7 @@ description: "「联众人之志，创非凡之事」"
   <div class="timeline-step">
     <div class="step-circle">2</div>
     <div class="step-content">
-      <h4>笔试</h4>
+      <h4>笔试 / 问卷</h4>
       <div class="tooltip">?
         <span class="tooltip-text">完成报名组别的笔试或问卷</span>
       </div>
