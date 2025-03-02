@@ -51,7 +51,7 @@ PM，即产品经理（Product Manager），是软件开发团队中的核心角
 
 2. **工具推荐**  
 	- **原型设计**：Figma、Sketch、Axure  
-	- **流程图**：[draw.io](draw.io)、Lucidchart  
+	- **流程图**：[draw.io](https://www.drawio.com/)、Lucidchart  
 	- **思维导图**：XMind、MindNode  
 	- **项目管理**：Jira、Trello、Notion  
 	- **数据分析**：Excel、Google Analytics、Tableau  
