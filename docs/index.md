@@ -29,7 +29,7 @@ description: "「联众人之志，创非凡之事」"
     <div class="info-content">
       <h4>招新推文</h4>
       <p>了解更多招新详情</p>
-      <a href="https://mp.weixin.qq.com/s?__biz=MzU5NjcyMzQzMg==&mid=2247486852&idx=1&sn=3a597d201efc8a0b7c1274162d01fb61&chksm=ff4f98e9ed27276728ff18e47b08b111b10ce80a981c37cca1361ec1b50c90e8aeb23e98e1bf&mpshare=1&scene=23&srcid=0216jsOCmMmLPVU13wNsiHx9&sharer_shareinfo=1b2b70d8dba3c500fbdfbcd9d4c19b22&sharer_shareinfo_first=1b2b70d8dba3c500fbdfbcd9d4c19b22#rd" class="info-btn" target="_blank">阅读推文</a>
+      <a href="https://mp.weixin.qq.com/s?__biz=MzU5NjcyMzQzMg==&mid=2247486945&idx=1&sn=4355cca1d486c9aeadb8d16e5486cfac&chksm=ffa2e0082ea365196cc43a228c9f6d2e36bfce4ecf01103d483e1176f449d1b83d86a85d7ee5&mpshare=1&scene=23&srcid=0304W3uZHjZGZlXYR4RfZO72&sharer_shareinfo=f1b27002ace2a7e98ef69626ea73107a&sharer_shareinfo_first=f1b27002ace2a7e98ef69626ea73107a#rd" class="info-btn" target="_blank">阅读推文</a>
     </div>
   </div>
   
@@ -78,6 +78,8 @@ description: "「联众人之志，创非凡之事」"
 ## 关于春招
 
 联创团队2025春招将于3月3号开始，截止到3月21日0时0分。团队招新没有固定指标名额，遵从达到要求应招尽招，达不到要求一个都不招的原则。各位同学大可不必在意报名人数，只要你有意愿，联创团队的大门永远为你敞开。同时，团队招新考核对不同年级的学生有不同的要求，我们非常欢迎低年级的同学加入，并对高年级的同学和研究生有更高的要求。本次招新所有组别均参与，并且开启了联创探索下一代互联网技术的**Project C计划**。报名任何组别的同学均可以勾选，我们希望与你一起探索区块链与下一代网络技术，详情请见[Project C](/docs/ProjectC)和招新推文。
+
+**特别提醒** ：如果你觉得自己实力超凡，可以达到或者超越正式队员的水平，你也可以勾选“**快通**”，你将不用参加笔试和熬测，直接参加组面和群面，节约时间快速加入联创。如果没有通过快通流程你也可以按照正常流程继续招新。欢迎有实力的同学勾选快通！
 
 ## 招新流程
 
