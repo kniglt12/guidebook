@@ -23,8 +23,8 @@ navigation:
     url: /docs/Lab入门指北
   - title: PM入门
     url: /docs/PM入门指北
-  - title: Project C入门
-    url: /docs/ProjectC入门指北
+  - title: Blockchain入门
+    url: /docs/Blockchain
 
 
 baseurl: ""
